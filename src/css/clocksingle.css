@@ -1,0 +1,39 @@
+#clockdiv_I1, #clockdiv_I2, #clockdiv_I3{
+	font-size: 30px;
+	position: relative;
+	top: 0%;
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+#clockdiv_I1 > div, #clockdiv_I2> div, #clockdiv_I3> div{
+	padding: 8px;
+	border-radius: 3px;
+	background: #07070771;
+	display: inline-block;
+}
+#clockdiv_I1 div > span, #clockdiv_I2 div > span,  #clockdiv_I3 div > span{
+	padding: 7px;
+	border-radius: 3px;
+	background: #00000083;
+	display: inline-block;
+}
+
+#Icore{
+	position: relative;
+    top: 200px;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+.Ibackground{
+	
+	width: 350px;
+	height: 400px;
+	margin: 10px;
+	background-color: rgba(0, 0, 0, 0.267);
+	display: block;
+}

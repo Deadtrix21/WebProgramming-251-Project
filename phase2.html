@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="src/lib/vue.js"></script>
+    <script src="src/lib/jquery.js"></script>
+    <link rel="stylesheet" href="src/css/clocksingle.css">
+</head>
+<body id="demo">
+    <navi></navi>
+    <section id="Icore">
+        <div class="Ibackground">
+            <h2 class="inline">Phase 2</h1>
+            <div class="inline" id="clockdiv_I1">
+                <div><span class="days"></span><div class="smalltext">Days</div></div>
+                <div><span class="hours"></span><div class="smalltext">Hours</div></div>
+                <div><span class="minutes"></span><div class="smalltext">Minutes</div></div>
+                <div><span class="seconds"></span><div class="smalltext">Seconds</div></div>
+            </div>
+            <h2 class="inline">Time To Register</h1>
+            <div id="clockdiv_I2">
+                <div><span class="days"></span><div class="smalltext">Days</div></div>
+                <div><span class="hours"></span><div class="smalltext">Hours</div></div>
+                <div><span class="minutes"></span><div class="smalltext">Minutes</div></div>
+                <div><span class="seconds"></span><div class="smalltext">Seconds</div></div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="src/app/apps.js"></script>
+<script src="src/script/singlepage.js"></script>
+<section id="imports"></section>
+<script src="src/script/index.inc.js"></script>
+<script>SignUpPage()</script>
+<script>phase2()</script>
+</html>

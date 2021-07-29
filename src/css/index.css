@@ -1,0 +1,23 @@
+
+#block{
+    top: 10%;
+    left: 20%;
+    position: absolute;
+}
+#block section{
+    font-size: large;
+    color: yellow;
+    top: 2%;
+    left: 2%;
+    position: absolute;
+}
+
+#block p{
+    font-size: large;
+    color: yellow;
+    position: relative;
+}
+#block .ss{
+    font-size: xx-large;
+    color: red;
+}

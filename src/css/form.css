@@ -1,0 +1,92 @@
+#backform{
+    position: relative;
+    top: 100px;
+    left: 37%;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+}
+#mainform{
+
+    width: 450px;
+    
+    display: grid;
+    grid-template-columns: 100%;
+    position: relative;
+    align-items: center;
+}
+#fullname,
+#province,
+#birthdate,
+#submission{
+    color: crimson;
+    font-size: xx-large;
+}
+#fullname {
+    display: inline-flex;
+    flex-direction: column;
+}
+#province {
+    display: inline-flex;
+    flex-direction: column;
+}
+#birthdate {
+    display: inline-flex;
+    flex-direction: column;
+}
+#submission {
+    display: inline-flex;
+    flex-direction: column;
+}
+/*
+
+
+*/
+#fullname input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 90px;
+    text-align: center;
+}
+#fullname label{
+    width: 200px;
+}
+/*
+
+
+*/
+#province label{
+    width: 200px;
+}
+#province select{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 90px;
+}
+/*
+
+
+*/
+#birthdate input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 90px;
+    text-align: center;
+}
+#birthdate label{
+    width: 200px;
+}
+/*
+
+
+*/
+#submission input{
+    height: 40px;
+    border: none;
+    border-radius: 90px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/lib/vue.js"></script>
+    <script src="src/lib/jquery.js"></script>
+    <link rel="stylesheet" href="src/css/form.css">
+    <title>Covid: Sign Up</title>
+</head>
+<body id="demo">
+    <navi></navi>
+    <section id="backform">
+        <form id="mainform" action="" method="post">
+            <section id="fullname">
+                <label for="RegName">Full Name</label>
+                <input type="text" name="RegName" id="fname">
+            </section>
+            <section id="province">
+                <label for="dropdown">Province</label>
+                <select name="dropdown" id="items">
+                    <option value="Null">None</option> 
+                    <option value="Gauteng">Gauteng</option> 
+                    <option value="Mpumalanga">Mpumalanga</option>
+                    <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                    <option value="North West">North West</option>
+                    <option value="Limpopo">Limpopo</option>
+                    <option value="Western Cape">Western Cape</option>
+                    <option value="Free State">Free State</option>
+                    <option value="Eastern Cape">Eastern Cape</option>
+                    <option value="Northern Cape">Northern Cape</option>
+                </select>
+            </section>
+            <section id="birthdate">
+                <label for="birth">Date Of Birth</label>
+                <input type="date" name="birth" id="dob" value="">
+            </section>
+            <section id="submission">
+                <input type="button" name="submit" value="Submit" onclick="startValidation()">
+            </section>
+        </form>
+    </section>
+</body>
+<script src="src/app/apps.js"></script>
+<script src="src/script/form.js"></script>
+<section id="imports"></section>
+<script src="src/script/index.inc.js"></script>
+<script>SignUpPage()</script>
+</html>

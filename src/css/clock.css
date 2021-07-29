@@ -1,0 +1,133 @@
+#core{
+	position: relative;
+	top: 20%;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+.background{
+	
+	width: 350px;
+	height: 300px;
+	margin: 10px;
+	background-color: rgba(0, 0, 0, 0.267);
+	display: block;
+}
+#clockdiv_1, #clockdiv_2,#clockdiv_3,#clockdiv_4{
+	position: relative;
+	top: 40%;
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+#clockdiv_5, #clockdiv_6,#clockdiv_7,#clockdiv_8{
+	position: relative;
+	top: 40%;
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv_1 > div, #clockdiv_2> div, #clockdiv_3> div, #clockdiv_4 > div{
+	padding: 8px;
+	border-radius: 3px;
+	background: #07070771;
+	display: inline-block;
+}
+#clockdiv_5 > div, #clockdiv_6 > div, #clockdiv_7 > div, #clockdiv_8 > div{
+	padding: 8px;
+	border-radius: 3px;
+	background: #07070771;
+	display: inline-block;
+}
+#clockdiv_1 div > span, #clockdiv_2 div > span, #clockdiv_3 div > span, #clockdiv_4 div > span{
+	padding: 7px;
+	border-radius: 3px;
+	background: #00000083;
+	display: inline-block;
+}
+#clockdiv_5 div > span, #clockdiv_6 div > span, #clockdiv_7 div > span, #clockdiv_8 div > span{
+	padding: 7px;
+	border-radius: 3px;
+	background: #00000083;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+#hide{
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	z-index: 2;
+	top: 12px;
+	left: 10px;
+}
+.inline{
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+}
+/*
+this is the overlay
+*/
+.Overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(7, 0, 8, 0.924);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+@media screen and (max-height: 450px) {
+    .Overlay {
+        overflow-y: auto;}
+    .Overlay a {
+        font-size: 20px
+    }
+    .Overlay .clbtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+.Overlay-content {
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center; 
+    margin-top: 30px;
+}
+.Overlay a {
+    padding: 8px;
+    display: block;
+    color: var(--text);
+    font-size: xx-large;
+}
+
+.Overlay .clbtn{
+    background-color: transparent;
+    color: red;
+}
+
+.def{
+    background-color: transparent;
+    font-size: xx-large;
+    color: var(--text);
+}
